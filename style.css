@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  background-color: var(--Yellow);
+}
+.container {
+  width: 370px;
+  margin: 80px auto;
+  background-color: var(--White);
+  border: 2px solid var(--Grey);
+  border-radius: 20px;
+  box-shadow: 8px 8px;
+  padding: 20px;
+}
+.container > img {
+  width: 100%;
+  border-radius: 15px;
+}
+.container section {
+  background-color: var(--Yellow);
+  color: var(--Black);
+  font-weight: 700;
+  width: 100px;
+  padding: 6px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 14px 0;
+}
+.container #p {
+  color: var(--Black);
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+.container h2 {
+  margin-bottom: 16px;
+}
+.container h2:hover {
+  color: var(--Yellow);
+  cursor: url(./assets/images/iconmonstr-cursor-30.svg), pointer;
+}
+.container > p {
+  color: var(--Grey);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+.container .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.container .avatar img {
+  width: 40px;
+}
+.container .avatar p {
+  font-weight: 700;
+  margin-left: 15px;
+}
